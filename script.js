@@ -11,8 +11,8 @@ const UTCTime = () => {
         const hour = Newtime.getUTCHours()
         const minutes = Newtime.getMinutes()
         const seconds = Newtime.getSeconds()
-        /*const milliseconds = Newtime.getMilliseconds()*/
-        const currentUTCTiming = `Current Time: ${hour}: ${minutes}: ${seconds}`
+        const milliseconds = Newtime.getMilliseconds()
+        const currentUTCTiming = `Current Time: ${hour}: ${minutes}: ${seconds}: ${milliseconds}`
         dayTime.innerHTML = currentUTCTiming;
      }
      getUTCTiming()
