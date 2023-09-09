@@ -48,17 +48,6 @@ img{
 [data-testid=slackUserName]{
     margin-top: 10px;
 }
-
-#slackDayOfTheWeek{
-    font-size: larger;
-}
-#currentUTCTime{
-    font-size: larger;
-}
-#myTrack{
-    font-size: larger;
-}
-
 p{
     font-size: 1.5rem;
     color: yellowgreen;  
@@ -74,6 +63,8 @@ h1{
     padding: 1rem 2rem;
     margin-bottom: .6rem;
     text-decoration: none;
+    border-radius: 1rem;
+    
 }
 a{
     color:whitesmoke;
