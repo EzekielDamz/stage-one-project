@@ -110,7 +110,9 @@ button{
     h1{
         font-size: 1.8rem;
         padding-bottom: 1.5rem;
-    }
+        font-size: 1.8rem;
+        padding-bottom: 1.5rem; 
+     }
     p{
         font-size: 1.2rem;
     }
