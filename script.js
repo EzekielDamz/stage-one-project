@@ -1,13 +1,3 @@
-/*const d = new Date();
-const dayTime = document.querySelector('[data-testid=currentUTCTime]');
-const currentUTCTime = d.toUTCString()
-dayTime.innerHTML = currentUTCTime;*/
-
-
-
-
-
-
 
 const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const d = new Date();
@@ -27,7 +17,7 @@ const UTCTime = () => {
         const minutes = Newtime.getMinutes()
         const seconds = Newtime.getSeconds()
         const milliseconds = Newtime.getMilliseconds()
-        const currentUTCTiming = `Current Time: ${hour}${minutes}${seconds}${milliseconds}`
+        const currentUTCTiming = `Current Time: ${hour}: ${minutes}: ${seconds}: ${milliseconds}`
         dayTime.innerHTML = currentUTCTiming;
      }
      getUTCTiming()
